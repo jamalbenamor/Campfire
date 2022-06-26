@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Friends" representedClassName="Friends" syncable="YES" codeGenerationType="class">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="phone_number" optional="YES" attributeType="String"/>
+        <attribute name="profile_image_url" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MyProfile" representedClassName="MyProfile" syncable="YES" codeGenerationType="class">
+        <attribute name="date_joined" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="last_online" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="last_posted" optional="YES" attributeType="String"/>
+        <attribute name="last_recording" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="phone_number" optional="YES" attributeType="String"/>
+        <attribute name="posted_today" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="profile_image_url" optional="YES" attributeType="String"/>
+        <attribute name="suspended" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="todays_question" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Posts" representedClassName="Posts" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="recording_date" optional="YES" attributeType="String"/>
+        <attribute name="recording_url" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Friends" positionX="18" positionY="63" width="128" height="119"/>
+        <element name="Posts" positionX="72" positionY="162" width="128" height="104"/>
+        <element name="MyProfile" positionX="45" positionY="153" width="128" height="209"/>
+    </elements>
+</model>
